@@ -29,7 +29,8 @@ const HowTo = () => {
       <div className='howto_box w-[329px] mt-[21px] lg:mt-[30px] lg:w-[1140px] h-[441px] lg:h-[472px] flex justify-center flex-shrink-0'>
         <div className='w-[293px] lg:w-[1094px] flex flex-col items-center justify-center mt-[20px] mb-[45px] lg:mb-[21px] ml-[24px] mr-[14px]'>
           <h3 className='text-[#FF6347] text-center text-[18px] font-[700] leading-[22px] lg:w-[486px]'>
-            Strategize Your Next Move</h3>
+            Strategize Your Next Move
+          </h3>
           <p className='text-[#545454] lg:mb-[30px] text-center text-[14px] lg:text-[16px] font-[400] leading-[28px] lg:leading-[38px]'>
           With each guess, you'll gather more information. Use the <span className='font-bold'>green </span> and <span className='font-bold'>yellow </span> hints to refine your next word choice. The goal is to use these insights to correctly guess the Wordle games hidden word within your remaining attempts.</p>
           <Image src={howto} alt = "howto" className='lg:w-[419px] w-[252px] lg:h-[248px] h-[142px]'></Image>

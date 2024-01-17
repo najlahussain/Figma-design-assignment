@@ -45,13 +45,13 @@ const Hero = () => {
           </div>
           <div className='flex flex-col mt-[25px] gap-[3.03px] lg:gap-[7.4px] items-center justify-center'>
             <div className='flex flex-row gap-[3.03px] lg:gap-[7.4px]'>
-              {row1.map((element)=>(<Button1 title = {element}></Button1>))}
+              {row1.map((element, index)=>(<Button1 key={index} title = {element}></Button1>))}
             </div>
             <div className='flex flex-row gap-[3.03px] lg:gap-[7.4px]'>
-              {row2.map((element)=>(<Button1 title = {element}></Button1>))}
+              {row2.map((element, index)=>(<Button1 key = {index} title = {element}></Button1>))}
             </div>
             <div className='flex flex-row gap-[3.03px] lg:gap-[7.4px]'>
-              {row3.map((element)=>(<Button1 title = {element}></Button1>))}
+              {row3.map((element, index)=>(<Button1 key = {index} title = {element}></Button1>))}
               <Button1 title = 'Delete' icon = {del}></Button1>
             </div>
           </div>
