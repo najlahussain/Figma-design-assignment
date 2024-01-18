@@ -8,10 +8,9 @@ const HowTo = () => {
       <div className='flex flex-col justify-center items-center pt-[10px] lg:pt-[86px]'>
       <h3 className='text-[#FF6347] mt-[12px] mb-[12px] text-center text-[15px] lg:text-[26px] font-[700] leading-[22px] w-[375px] lg:w-[486px]'>
         How to Play</h3>
-        <h2 className='text-[#2F4F4F] mt-[12px] mb-[12px] text-center text-[26px] lg:text-[40px] font-[700] leading-[33px] lg:leading-[51px] w-[333px] lg:w-[650px]'>
-          How to play the Wordle Game?</h2>
+        <h2 className='text-[#2F4F4F] mt-[12px] mb-[12px] text-center text-[26px] lg:text-[40px] font-[700] leading-[33px] lg:leading-[51px] w-[333px] lg:w-[650px]'>How to play the Wordle Game?</h2>
         <p className='w-[333px] lg:w-[894px] text-[#545454] text-center text-[14px] lg:text-[16px] font-[400] leading-[28px] lg:leading-[38px]'>
-        Start with Any Five-Letter Word: Kick off your Wordle adventure by typing in any five-letter word. This is your first step towards unraveling the word puzzle.
+        Start with Any Five&#45;Letter Word&#58; Kick off your Wordle adventure by typing in any five-letter word. This is your first step towards unraveling the word puzzle.
         </p>
       </div>
       <div className='howto_box w-[335px] lg:mt-[30px] lg:w-[1140px] h-[352px] lg:h-[169px] flex justify-center flex-shrink-0'>
